@@ -19,7 +19,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
- 
 
  // 100k bed thermistor in JGAurora A5. Calibrated by Sam Pinches 21st Jan 2018 using cheap k-type thermocouple inserted into heater block, using TM-902C meter.
 const short temptable_15[][2] PROGMEM = {
@@ -28,11 +27,11 @@ const short temptable_15[][2] PROGMEM = {
   { OV(  35), 260 },
   { OV(  38), 253 },
   { OV(  41), 248 },
-  { OV( 48), 239 },
-  { OV( 56), 232 },
-  { OV( 66), 222 },
-  { OV( 78), 212 },
-  { OV( 93), 206 },
+  { OV(  48), 239 },
+  { OV(  56), 232 },
+  { OV(  66), 222 },
+  { OV(  78), 212 },
+  { OV(  93), 206 },
   { OV( 106), 199 },
   { OV( 118), 191 },
   { OV( 130), 186 },
@@ -40,10 +39,10 @@ const short temptable_15[][2] PROGMEM = {
   { OV( 187), 167 },
   { OV( 224), 158 },
   { OV( 270), 148 },
-  { OV( 321),  137 },
-  { OV( 379),  127 },
-  { OV( 446),  117 },
-  { OV( 518),  106 },
+  { OV( 321), 137 },
+  { OV( 379), 127 },
+  { OV( 446), 117 },
+  { OV( 518), 106 },
   { OV( 593),  96 },
   { OV( 668),  86 },
   { OV( 739),  76 },
