@@ -42,11 +42,11 @@
 //
 
 #ifndef X_CS_PIN
-  #define X_CS_PIN 59
+  #define X_CS_PIN 64 // Harald - was 59
 #endif
 
 #ifndef Y_CS_PIN
-  #define Y_CS_PIN 63
+  #define Y_CS_PIN 44 // Harald - was 63
 #endif
 
 #include "pins_RAMPS.h"
